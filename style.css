@@ -11,6 +11,10 @@ header{
     height: 790px;
 }
 
+section{
+    margin-bottom: 130px;
+}
+
 #heading-margin-bottom{
     margin-bottom: 100px;
 }
@@ -48,7 +52,7 @@ header{
     height: 64px;
     font-weight: 600;
     font-size: 20px;
-    padding: 18px 36px;;
+    padding: 18px 36px;
 }
 
         /* main section */
@@ -62,7 +66,6 @@ main {
 .img-portion{
     display: flex;
     align-items: center;
-    margin-bottom: 130px;
 }
 
 ul {
@@ -99,6 +102,7 @@ ul {
     color: rgba(68, 67, 67, 1);
     font-weight: 400;
     font-size: 16px;
+    width: 415px;
 }  
         /* My Plans style */
 
@@ -106,10 +110,66 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 130px;
 }
 
 .my-plans-heading{
     text-align: center;
     margin-bottom: 50px;
 }
+
+
+#gradient-section{
+    background-image: url('./images/watch.png');
+    height: 300px;
+    width: 1140px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.white-heading{
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.white-button{
+    color: rgba(241, 91, 34, 1);
+    background-color: rgba(255, 255, 255, 1);
+    font: bolder;
+    font-size: 23px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    /* display: block; */
+    height: 64px;
+    width: 160px;
+    padding: 18px 36px;
+    margin-top: -90px;
+}
+
+.container {
+    position: relative;
+  }
+  
+  .text {
+    position: absolute;
+    top: 40%;
+    margin-left: 300px; 
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .text1 {
+    position: absolute;
+    top: 80%;
+    margin-left: 0px; 
+    /* left: 50%; */
+    transform: translate(-665%, 50%);
+    z-index: 1;
+    font-size: 20px;
+  }
+
+
+  
+
+
